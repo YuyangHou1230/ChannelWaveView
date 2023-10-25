@@ -1,5 +1,6 @@
 name: Custom_Windows
 on: 
+  workflow_dispatch:
   # push代码时触发workflow
   push:
     paths:
